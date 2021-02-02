@@ -6,7 +6,7 @@ falsy value
   // 0
   // '' (empty string)
   // false
-  // undefine
+  // undefined
 
 truthy value  
 let emptyArray = []; 
@@ -25,7 +25,7 @@ else {
 
 let hight;
 if (hight) {
-    console.log('hight is define');
+    console.log('hight is defined');
 } else {
-    console.log('hight is undefine');
+    console.log('hight is undefined');
 }
