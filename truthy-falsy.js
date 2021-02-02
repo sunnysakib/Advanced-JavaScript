@@ -6,6 +6,7 @@ falsy value
   // 0
   // '' (empty string)
   // false
+  // undefine
 
 truthy value  
 let emptyArray = []; 
@@ -19,4 +20,12 @@ if (Name) {
 } 
 else {
     console.log('condition is false');
+}
+
+
+let hight;
+if (hight) {
+    console.log('hight is define');
+} else {
+    console.log('hight is undefine');
 }
