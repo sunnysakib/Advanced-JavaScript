@@ -29,4 +29,4 @@ const friendlyPerson = {
 
 const heroBill = normalPerson.chargeBill.bind(heroPerson);
 heroBill(2000);
-console.log(heroPerson);s
+console.log(heroPerson);
